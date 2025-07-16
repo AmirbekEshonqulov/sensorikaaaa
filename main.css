@@ -1,0 +1,251 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f5f5f5;
+}
+
+nav>ul {
+    display: flex;
+    background-color: white;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.24);
+    justify-content: space-around;
+    font-family: "Montserrat", sans-serif;
+    align-items: center;
+}
+
+ul>li>a {
+    text-decoration: none;
+    color: black;
+}
+
+ul>li {
+    list-style: none;
+}
+
+ul>li>a>svg {
+    width: 30px;
+    height: 64px;
+    margin-top: -5px;
+    margin-left: 30px;
+    color: black;
+}
+
+ul>li>a>img {
+    width: 200px;
+    margin-left: -160px;
+    height: 60px;
+}
+
+ul>li>a>input {
+    width: 380px;
+    border-radius: 5px;
+    height: 40px;
+    background-color: #F5F5F5;
+    border: 1px solid white;
+    margin-left: -180px;
+    padding-left: 50px;
+}
+
+.bir>a {
+    color: #28A6F3;
+    margin-left: 00px;
+    position: absolute;
+    margin-top: -10px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.ikki>a {
+    position: absolute;
+    margin-top: -10px;
+    margin-left: -130px;
+    font-size: 12px;
+    color: #e74c3c;
+    font-weight: 600;
+}
+
+.ikki>a:hover {
+    transition: all 0.1s;
+    color: #28A6F3;
+}
+
+.qidr>svg {
+    width: 15px;
+    margin-left: 470px;
+    margin-top: -40px;
+    height: 15px;
+    position: absolute;
+}
+
+.gtr>a>button {
+    width: 94px;
+    height: 28px;
+    background-color: #28a6f3;
+    color: #fff;
+    border: 1px solid;
+    border-bottom: 1px;
+    border-top: 1px;
+    border-left: 1px;
+    border-right: 1px;
+    border-radius: 5px;
+    margin-left: 1150px;
+    margin-top: 40px;
+}
+
+.gtr>a>button:hover {
+    transition: 0.1s;
+    background-color: #289ae0;
+}
+
+.gtr>p {
+    color: black;
+    margin-left: 140px;
+    margin-top: 40px;
+    position: absolute;
+    font-weight: 300;
+    font-size: 28px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.rek {
+    display: flex;
+    gap: 11px;
+    margin-top: 40px;
+    margin-left: 140px;
+}
+
+.birr {
+    border: 1px solid black;
+    width: 212px;
+    border-radius: 5px;
+    height: 290px;
+}
+
+.ikkii {
+    border: 1px solid black;
+    width: 212px;
+    border-radius: 5px;
+    height: 290px;
+}
+
+.uch {
+    border: 1px solid black;
+    width: 212px;
+    border-radius: 5px;
+    height: 290px;
+}
+
+.tor {
+    border: 1px solid black;
+    width: 212px;
+    border-radius: 5px;
+    height: 290px;
+}
+
+.bew {
+    border: 1px solid black;
+    width: 212px;
+    border-radius: 5px;
+    height: 290px;
+}
+
+.birr>p {
+    color: #000000;
+    font-size: 14px;
+    margin-left: 40px;
+    margin-top: 130px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.birr>p:nth-child(2) {
+    color: #000;
+    width: 200px;
+    margin-top: 20px;
+    font-size: 12px;
+}
+
+.ikkii>p {
+    color: #000000;
+    font-size: 14px;
+    margin-left: 30px;
+    margin-top: 130px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.ikkii>p:nth-child(2) {
+    color: #000;
+    margin-top: 20px;
+    font-size: 12px;
+}
+
+.uch>p {
+    color: #000000;
+    font-size: 14px;
+    margin-left: 30px;
+    margin-top: 130px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.uch>p:nth-child(2) {
+    color: #000;
+    margin-top: 20px;
+    font-size: 12px;
+}
+
+.tor>p {
+    color: #000000;
+    font-size: 14px;
+    margin-left: 30px;
+    margin-top: 130px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.tor>p:nth-child(2) {
+    color: #000;
+    margin-top: 20px;
+    font-size: 12px;
+}
+
+.bew>p {
+    color: #000000;
+    font-size: 14px;
+    margin-left: 30px;
+    margin-top: 130px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.bew>p:nth-child(2) {
+    color: #000;
+    margin-top: 20px;
+    font-size: 12px;
+}
+
+.birr>img{
+    margin-left: 55px;
+    width: 100px;
+    margin-top: 15px;
+    border-radius: 20px;
+    height: 100px;
+}
+
+.rasm{
+    margin-top: -280px;
+    display: flex;
+    gap: 120px;
+    margin-left: 200px;
+}
+
+.rasm>img{
+    border-radius: 20px;
+    width: 100px;
+    height: 100px;
+}
+
+.rasm>img:hover{
+    transition: all 0.1s;
+    box-shadow: 0px 0px 4px 4px rgba(0, 0, 0, 0.11);
+}
